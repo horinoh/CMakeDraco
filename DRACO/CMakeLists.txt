@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.6.1)
 set(ProjectName DRACO)
 project(${ProjectName})
 
-include_directories(..//..//draco//src//draco)
+include_directories(..//..//draco//src)
 link_directories(..//..//draco//build)
 link_libraries(draco dracodec dracoenc)
 #add_definitions()
